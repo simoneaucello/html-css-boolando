@@ -14,19 +14,32 @@ header{
   background-color: #ff6900;
 }
 
-.container{
+
+.flexed{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+
+}
+
+.container{
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   max-width: 1400px;
+  margin-top: 70px;
 }
 
 
 img{
-  width:400px;
-  margin: 20px;
+  max-width:400px;
+  
 }
+
+.product{
+  position: relative;
+  
+}
+
 
 .product:hover .cover-prod{
   display: none;
@@ -37,7 +50,35 @@ img{
 }
 
 
-
 .product:hover .switch{
   display: block;
 }
+
+.card{
+  height: 750px;
+
+}
+
+.product .discount{
+  position: absolute;
+	bottom: 40px;
+	left: 0;
+	color: white;
+	padding: 5px 10px;
+	background-color: red;
+}
+
+.product .sustainable{
+  position: absolute;
+	bottom: 40px;
+	left: 55px;
+	color: white;
+	padding: 5px 10px;
+  background-color: green;
+
+}
+
+#start{
+  background-color: green;
+}
+
