@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+  width:100%;
+  height: 75px;
+  background-color: #ff6900;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+}
+
+
+img{
+  width:400px;
+  margin: 20px;
+}
+
+.product:hover .cover-prod{
+  display: none;
+}
+
+.product .switch{
+  display: none;
+}
+
+
+
+.product:hover .switch{
+  display: block;
+}
