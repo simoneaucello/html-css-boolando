@@ -54,8 +54,25 @@ img{
   display: block;
 }
 
+.hearts{
+  align-items: center;
+  font-size: 1.5rem;
+  position: absolute;
+  background-color: white;
+  top: 8px;
+  right: 0;
+  width: 50px;
+  height: 50px;
+
+}
+
+.hearts:hover .liked{
+  color:red;
+}
+
+
 .card{
-  height: 750px;
+ padding-bottom: 50px;
 
 }
 
@@ -78,7 +95,20 @@ img{
 
 }
 
+.price-now{
+  color: red;  
+}
+
+.price-old{
+  text-decoration:line-through;
+}
+
 #start{
   background-color: green;
 }
 
+footer{
+  height: 120px;
+  background-color: #202020;
+  margin-bottom: 3px;
+}
